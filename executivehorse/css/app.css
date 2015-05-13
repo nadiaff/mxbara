@@ -1,0 +1,22 @@
+h4 {margin-top:1rem;}
+
+
+.dateColumn {min-width: 6rem;}
+
+
+/*Top Navigation Styles */
+.top-bar-section ul li {background:transparent;}
+.top-bar-section ul li > a.button {background-color:transparent !important; border-color:transparent; color:#000056 !important; font-family: 'sf_archery_blackregular', sans-serif; font-size: 1.2rem; text-decoration:none;}
+.top-bar {background:transparent;}
+@media only screen and (min-width: 40.063em) {.top-bar {background:transparent;}}
+
+/*Center Text on the Topbar */
+nav.top-bar {text-align:center;}
+section.top-bar-section {display:block;}
+
+
+@media only screen and (max-width: 40em)  {
+	.top-bar-section ul li > a.button {padding-top:.5rem; padding-right:.9rem;}
+	.top-bar {overflow: visible; }
+	.top-bar-section ul {width: auto;}
+}

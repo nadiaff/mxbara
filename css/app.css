@@ -1,0 +1,131 @@
+body {font-family: 'Roboto', sans-serif; background-color:#B6C1CB;}
+body {background-color:#626262;}
+body{background-color:#A1A1A1;}
+body{background-color:#BCBCBC;}
+
+.container{background-color:#687291;}
+.container2{width: 1200px; margin: auto; padding: .5rem;}
+
+/*Give p tag a top margin*/
+p {margin-top:1.25rem;font-family: 'Roboto', sans-serif;}
+
+/* Alter margin betwen panels */
+.panel {margin-top: .4rem; margin-bottom:0; background-color:#C4C4C4; border-color:#575151;}
+.panel {background-color:#CFCFCF;}
+.panel {background-color:#89898C;}
+.panel {background-color:#DFDFDF}
+
+/* Remove padding from an element */
+.no-padding {padding:0 !important;}
+
+/* Fonts & Typography */
+
+/*Font Properties*/
+h1{font-family:'courier', monospace; font-weight:bold; color:#000000; text-align:center;}
+h2{font-family:'sf_archery_blackregular', Arial, sans-serif; color:#000000 !important;}
+h4 {font-family:'sf_archery_blackregular', Arial, sans-serif; color:#f2a400 !important;}
+h6 {font-weight:700;}
+a {color: #0023D7;}
+hr {border-color:#333333;}
+.italics {font-style:italic;}
+.command {text-align:left; font-size:2rem;}
+.command > a {color:#0023D7; text-decoration:underline;}
+.align-left{text-align:left;}
+.equius1{color:#000056;}
+.equius2 {color:#0023D7;}
+.center-image {text-align:center;}
+
+/* Navigation Styles */
+
+/*Top Navigation Styles */
+.top-bar-section ul li {background:transparent;}
+.top-bar-section ul li > a.button {background-color:transparent !important; border-color:transparent; color:#000056 !important; font-family: 'sf_archery_blackregular', sans-serif; font-size: 1.2rem; text-decoration:none;}
+.top-bar {background:transparent;}
+@media only screen and (min-width: 40.063em) {.top-bar {background:transparent;}}
+
+/*Center Text on the Topbar */
+nav.top-bar {text-align:center;}
+section.top-bar-section {display: inline-block;}
+
+/* Side Nav Stylings */
+.side-nav-div {width: 25.5%;}
+.side-nav {font-family: 'Roboto', sans-serif; padding:0;}
+.side-nav li {margin:0; color:#2b0057; font-size:.8rem; }
+.side-nav li a:not(.button) {color:#4200b0; padding:0; font-size:.8rem; display:inline-block; text-decoration:underline;}
+.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {color:#b536da;}
+.side-horse {margin-bottom: .75rem;}
+
+/* Put space between Logo and Top ad */
+#slider {text-align:center;}
+#slider img {width:76%;}
+
+/* Align Horizontal Hornses and add Border */
+.top-img {text-align:center;}
+.top-img img {width: 100%; height: 7rem;}
+
+/* Form Elements */
+
+/* Label */
+label  {font-size: 1.3rem; display:inline-block; vertical-align: middle;}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {margin: 0 0 1rem .2rem; width: 60%; display:inline-block;}
+input[type="submit"] {height: 1.6rem; width: 10%; margin: 0; padding-bottom: 1.6rem;}
+
+/* News Feed Styles */
+.newsfeed p {margin:0;}
+p.news-date {margin-top:2rem; font-style:italic;}
+
+
+/* Large and Medium Screen Styling */
+@media only screen and (min-width: 40.063em) {
+	.medium-9 {max-width: 73.5%;}
+	.top-bar-section {margin-left: .5rem;}
+	.medium-9 .row .no-padding-small {padding-top: 2.75rem;}
+	.medium-9 .row .codex-list {padding-top: 1rem;}
+}
+
+
+/* Medium Screen Styling */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	p.command {padding-left: 1.5rem;}
+}
+
+/* Small Screen Styling */
+
+@media only screen and (max-width: 40em)  {
+	.top-bar-section ul li > a.button {padding-top:.5rem; padding-right:.9rem;}
+	.top-bar {overflow: visible; }
+	.top-bar-section ul {width: auto;}
+	.no-padding-small {padding:0;}
+	
+	.side-nav-div {width: 100%;}
+
+	input[type="submit"] {padding-right: 1.25rem;}
+	label {display:block;}
+	.panel {margin-top:0;}
+	p {padding:0rem;}
+	p.command{font-size: 1.4rem; padding:.5rem;}
+	.comix-logo{margin-top:1rem;}
+	.comix-container {padding:0;}
+	.comix-content-panel form, .comix-content-panel p {padding:0rem;}
+}
+
+/* Styles for the Index Page */
+
+.apex-panel {padding:2.9rem 2.9rem 2rem 2.9rem; text-align:left;}
+
+/* Styles for the Comix Page */
+.comix-logo{margin-top:.5rem; text-align: center;}
+.comix-container{background-color:#CFCFCF; padding-top:0; padding-bottom:0;}
+.comix-content-panel {padding:0; text-align:left; background-color:#DFDFDF; padding-top:1.25rem;}
+.comix-content-panel form, .comix-content-panel p, .comix-content-panel h {padding:.5rem; }
+.comix-content-panel form {text-align:center;}
+.comix-text {text-align:center;}
+
+/* Styles for the Codex Page */
+.codex-list {text-align:left;}
+.codex-list > p {padding:0; margin:0; color:#2b0057; font-size:.9rem;}
+.codex-list a {color: #4200b0; padding: 0;}
+.codex-list a:hover, .codex-list a:focus {color:#b536da;}
+/*.codex-list a:visited {color:#b536da;}
+.codex-font {color:#4200b0 !important;}*/
+.codex-list a.view-order {color:#0023D7;}

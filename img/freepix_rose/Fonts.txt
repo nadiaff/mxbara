@@ -1,0 +1,30 @@
+Fonts used in this design;
+
+Font: Pacifico,
+Author:	Vernon Adams,
+Url: http://www.fontsquirrel.com/fonts/pacifico;
+
+Font: Nexa rust,
+Author:	Fontfabric,
+Url:http://www.fontsquirrel.com/fonts/nexa-rust;
+
+
+Font: GoodDog,
+Author:	Fonthead Design,
+Url:http: http://www.fontsquirrel.com/fonts/GoodDog;
+
+Font: JUNEBUG,
+Author:	pizzadude.dk,
+Url:http:http://www.fontsquirrel.com/fonts/JuneBug;
+
+Font: FRENTE H1,
+Author:	Frente,
+Url:http:http://www.fontsquirrel.com/fonts/frente-h1;
+
+Font: bebas,
+Author:	Flat-it,
+Url:http:http://www.fontsquirrel.com/fonts/Bebas;
+
+Font: Boogaloo,
+Author:	John Vargas Beltránv,
+Url: http://www.fontsquirrel.com/fonts/boogaloo;

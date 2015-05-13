@@ -17,11 +17,10 @@
 				<div class="row">
 					<div class="small-12 columns panel comix-container">
 						<div class="medium-8 medium-offset-2 small-12 columns comix-content-panel">
-							<?php 
-								include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/pages/page".$pageid.".php";
-							?>
-							
-							
+							<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/pageFunctions.php"; ?>
+							<h1><?php echo $pageTitle; ?></h1>
+							<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/pages/page".$pageid.".php";?>
+								<a href="comix.php?p=<?php echo $nextPage; ?>"> <?php echo $pageCommand; ?></a></p>
 						</div>
 					</div>
 				</div>

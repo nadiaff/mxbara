@@ -16,22 +16,11 @@
 						<div class="row">
 							<div class="small-12 columns panel codex-list no-padding-small">
 								<h2>Digitized Codex</h2>
-								<p><a class="view-order" href="#">View Oldest to Newest</a></p>
-								<p>4/13/15 - <a href="#">Page 1</a></p>
-								<p>4/13/15 - <a href="#">Page 2</a></p>
-								<p>4/13/15 - <a href="#">Page 3</a></p>
-								<p>4/13/15 - <a href="#">Page 4</a></p>
-								<p>4/13/15 - <a href="#">Page 5</a></p>
-								<p>4/14/15 - <a href="#">Page 6</a></p>
-								<p>4/14/15 - <a href="#">Page 7</a></p>
-								<p>4/14/15 - <a href="#">Page 8</a></p>
-								<p>4/14/15 - <a href="#">Page 9</a></p>
-								<p>4/14/15 - <a href="#">Page 10</a></p>
-								<p>4/14/15 - <a href="#">Page 11</a></p>
-								<p>4/14/15 - <a href="#">Page 12</a></p>
-								<p>4/15/15 - <a href="#">Page 13</a></p>
-								<p>4/15/15 - <a href="#">Page 14</a></p>
-								<p>4/15/15 - <a href="#">Page 15</a></p>
+								<!--<p><a class="view-order" href="#">View Oldest to Newest</a></p>-->
+								<p>5/14/15 - <a href="comix.php?p=4">> Closer, but not quite</a></p>
+								<p>5/14/15 - <a href="comix.php?p=3">> Try Again</a></p>
+								<p>5/14/15 - <a href="comix.php?p=2">> Enter Name</a></p>
+								<p>5/14/15 - <a href="comix.php?p=1">MXBARA</a></p>
 							</div>
 						</div>
 						<div class="row">

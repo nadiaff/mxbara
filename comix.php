@@ -27,7 +27,7 @@
 				</div>
 				<div class="row">
 					<div class="small-12 columns comix-logo">
-						<img src="/comics/MXBARA/img/mxbaralogo.png" />
+						<a href="http://www.drweeaboo.net/comics/MXBARA"><img src="/comics/MXBARA/img/mxbaralogo.png" /></a>
 					</div>
 				</div>
 				<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/topnav2.php"; ?>

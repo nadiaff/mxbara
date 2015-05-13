@@ -15,9 +15,9 @@
 					<div class="medium-9 small-12 columns">
 						<div class="row">
 							<div class="small-12 columns panel apex-panel no-padding-small">
-								<img src="/comics/MXBARA/pages/mx0000000003.png" />
-								<p class="comix-text">From its perch atop the goth's messy coiffure, the squiddle hat watches all.</p>
-								<p class="command">> <a href="#">Lady: Do something neat.</a></p>
+								<img src="/comics/MXBARA/pages/img/mx1.gif" />
+								<p class="comix-text">A service employee stands behind the counter of a popular international fast-food chain. It just so happens that today, the 14th of May, 2015, is this person's birthday. Since they received their name eighteen years ago, there is no need to give them one now. Can you guess this disaffected clerk's name?</p>
+								<p class="command">> <a href="comix.php?p=2">Enter name</a></p>
 							</div>
 						</div>
 

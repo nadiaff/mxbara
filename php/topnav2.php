@@ -1,6 +1,6 @@
 	<div class="row">
 		<div class="small-12 columns no-padding-small">
-			<nav class="top-bar" data-topbar role="navigation">
+			<nav class="top-bar comix-top-nav" data-topbar role="navigation">
 				<section class="top-bar-section">
 					<ul class="left">
 						<li><a class="button hide-for-small" href="index.php">Apex</a></li>

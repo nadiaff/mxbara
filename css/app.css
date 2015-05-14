@@ -32,8 +32,10 @@ hr {border-color:#333333;}
 .command > a {color:#0023D7; text-decoration:underline;}
 .align-left{text-align:left;}
 .equius1{color:#000056;}
-.equius2 {color:#0023D7;}
+.equius2 {color:#0023D7; font-weight:bolder;}
+.arrow {font-family:'courier', monospace; font-weight:bold;}
 .center-image {text-align:center;}
+
 
 /* Navigation Styles */
 
@@ -46,6 +48,7 @@ hr {border-color:#333333;}
 /*Center Text on the Topbar */
 nav.top-bar {text-align:center;}
 section.top-bar-section {display: inline-block;}
+.comix-top-nav { padding-left: 3rem;}
 
 /* Side Nav Stylings */
 .side-nav-div {width: 25.5%;}
@@ -67,8 +70,8 @@ section.top-bar-section {display: inline-block;}
 
 /* Label */
 label  {font-size: 1.3rem; display:inline-block; vertical-align: middle;}
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {margin: 0 0 1rem .2rem; width: 60%; display:inline-block;}
-input[type="submit"] {height: 1.6rem; width: 10%; margin: 0; padding-bottom: 1.6rem;}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {margin: 0 0 1rem .2rem; width: 60%; display:inline-block; font-size:inherit;}
+input[type="submit"] {height: 2.3125rem; width: 10%; margin: 0; background-color:#BCBCBC;}
 
 /* News Feed Styles */
 .newsfeed p {margin:0;}
@@ -81,6 +84,7 @@ p.news-date {margin-top:2rem; font-style:italic;}
 	.top-bar-section {margin-left: .5rem;}
 	.medium-9 .row .no-padding-small {padding-top: 2.75rem;}
 	.medium-9 .row .codex-list {padding-top: 1rem;}
+	.comix-content-panel {width:650px;}
 }
 
 

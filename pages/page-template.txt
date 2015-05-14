@@ -1,0 +1,4 @@
+	<img src="/comics/MXBARA/pages/img/" />
+	<p class="comix-text"></p>
+	<p class="command comix-command">> 
+	<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/command.php"; ?>

@@ -3,5 +3,4 @@
 	<p class="comix-text">Behind you are the WORK STATIONS where you pour drinks, heat up ingredients and arrange them into something vaguely resembling a meal. Above your head hang menus and cheerful advertisements endorsing the latest additions to the franchise’s lineup. You once read that they used paint and glue to make the food look more vibrant in those pictures. You’re not sure if they still do or if they just shop it all up with Adobe products. GRAPHIC DESIGN is something you only dabbled in a little before realizing that your ARTISTIC TALENTS were not appreciated by the soulless advertising establishment. </p>
 	<p class="comix-text">There are a number of CUSTOMERS waiting to be served and ORDERS that need filling. </p>
 	<p class="comix-text">What will you do?</p>
-	<!--<p class="command comix-command">>-->
-	<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/command.php"; ?>
+	<p class="command comix-command">> 

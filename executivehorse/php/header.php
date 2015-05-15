@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/admin/php/config.php";
-?>
+
 <html class="no-js" lang="en" >
 
 
@@ -25,3 +23,8 @@
 
 	</head>
 	<body>
+	
+<?php
+	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	
+?>

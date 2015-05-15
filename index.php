@@ -1,16 +1,17 @@
 <?php 
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/header.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/logo.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/topnav.php";
+	include 'php/header.php';
+	include 'php/logo.php';
+	include 'php/topnav.php';
 ?>
+
 
     <div class="row">
 		<div class="large-12 columns">
 				<div class="row">
 					<div class="hide-for-small medium-3 columns panel side-nav-div">
-						<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/updateredux.php"; ?>
+						<?php include "php/updateredux.php"; ?>
 						<br>
-						<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/equines.php"; ?>
+						<?php include "php/equines.php"; ?>
 					</div>
 					<div class="medium-9 small-12 columns">
 						<div class="row">
@@ -23,16 +24,16 @@
 
 						<div class="row show-for-small">
 							<div class="small-12 columns panel">
-								<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/updateredux.php"; ?>
+								<?php include "php/updateredux.php"; ?>
 							</div>
 						</div>
 						
 						<div class="row">
 							<div class="medium-9 small-12 columns panel newsfeed">
-								<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/newsfeed.php"; ?>
+								<?php include "php/newsfeed.php"; ?>
 							</div>
 							<div class="hide-for-small medium-3 side-imgs columns panel">
-								<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/longhorse.php"; ?>
+								<?php include "php/longhorse.php"; ?>
 							</div>
 						</div>
 					</div>
@@ -42,6 +43,6 @@
     </div> 
         
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/footer.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/topimg.php";
+	include "php/footer.php";
+	include "php/topimg.php";
 ?>

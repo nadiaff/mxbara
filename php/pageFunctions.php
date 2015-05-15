@@ -1,9 +1,9 @@
-<?php include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php"; 
-
+<?php 
 	$thisPage = $pageid;
 	$nextPage = $pageid + 1;
 	
-	$stmt = $conn->prepare("SELECT title FROM pages WHERE id = ".$thisPage);
+	$stmt = $conn->prepare("SELECT title FROM pages WHERE id = ?");
+	$stmt->bind_param("i", $thisPage); 
 	$stmt->execute();
 	
 	$out_title = NULL;
@@ -15,7 +15,8 @@
 	}	
 	$stmt->close();
 	
-	$stmt2 = $conn->prepare("SELECT title FROM pages WHERE id = ".$nextPage);
+	$stmt2 = $conn->prepare("SELECT title FROM pages WHERE id = ?");
+	$stmt2->bind_param("i", $nextPage); 
 	$stmt2->execute();
 	
 	$out_command = NULL;
@@ -25,7 +26,6 @@
 			$pageCommand = $out_command;
 		}
 	}	
-
 	$stmt2->close();
 	
 	$conn->close();

@@ -1,0 +1,4 @@
+	<img src="/comics/MXBARA/pages/img/nad1.png" />
+	<p class="comix-text">You are suddenly informed by an androgynous diminutive fae that squids are not cetaceans. They are cephalopods. Cetaceans refers to whales and narwhals and the like. You consider going and fixing the gaffe you made in <a href="comix.php?p=5">an earlier panel</a>, but instead opt for parading your shame in the form of this brief interlude.</p>
+	<p class="comix-text">You receive an F- at Marine Biology. You decide to give up your dreams of becoming a scholar of the briny deep and set out on a personal quest to find out your <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=real%20purpose%20in%20life">Real Purpose In Life</a>.</p>
+	<!-- <p class="command comix-command">> -->

@@ -1,7 +1,7 @@
 	<div id="mx8-slider" class="nivoSlider">
 		<img src="pages/img/door1.png" alt="" />
 		<img src="pages/img/door2.png" alt="" />
-		<img src="pages/img/door6.png" alt="" />
+		<img src="pages/img/door6.png" data-transition="fade" alt="" />
 		<img src="pages/img/door3.png" data-transition="fade" alt="" />
 		<img src="pages/img/door4.png" data-transition="fade" alt="" />
 		<img src="pages/img/door5.png" data-transition="fade" alt="" />

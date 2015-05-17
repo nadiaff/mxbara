@@ -1,7 +1,6 @@
 <?php 
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/header.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/topnav.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "php/header.php";
+	include "php/topnav.php";
 ?>
 
     <div class="row">
@@ -27,7 +26,7 @@
 				</thead>
 				<tbody>
 			<?php
-			$sql = "SELECT id, date, entry FROM newsfeed ORDER BY date DESC";
+			$sql = "SELECT id, date, entry FROM newsfeed ORDER BY id DESC";
 			$result = $conn->query($sql);
 			if ($result->num_rows > 0) {
 				// output data of each row
@@ -52,5 +51,5 @@
 		</div>
     </div> 
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/footer.php";
+	include "php/footer.php";
 ?>

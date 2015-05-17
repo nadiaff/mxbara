@@ -132,4 +132,4 @@ p.news-date {margin-top:2rem; font-style:italic;}
 .codex-list a:hover, .codex-list a:focus {color:#b536da;}
 /*.codex-list a:visited {color:#b536da;}
 .codex-font {color:#4200b0 !important;}*/
-.codex-list a.view-order {color:#0023D7;}
+.codex-list .view-order {color:#0023D7; margin: .5rem 0;}

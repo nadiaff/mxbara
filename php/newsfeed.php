@@ -1,7 +1,7 @@
 <?php 
 	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php"; 
 	
-	$sql = "SELECT date, entry FROM newsfeed ORDER BY date DESC";
+	$sql = "SELECT date, entry FROM newsfeed ORDER BY id DESC";
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
 		// output data of each row

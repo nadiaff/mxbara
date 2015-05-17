@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "config.php";
 	
 	//Determine whether this is to insert new entry or update an old one
 	$um = $_GET['updateMethod'];

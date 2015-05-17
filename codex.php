@@ -16,7 +16,12 @@
 						<div class="row">
 							<div class="small-12 columns panel codex-list no-padding-small">
 								<h2>Digitized Codex</h2>
-								<!--<p><a class="view-order" href="#">View Oldest to Newest</a></p>-->
+								<?php 
+									include 'php/codexFunctions.php';
+								?>
+								<!--<p>5/17/15 - <a href="comix.php?p=12">> Author: Belatedly realize that squids are not cetaceans</a></p>
+								<p>5/16/15 - <a href="comix.php?p=11">> Rose: Tell customers, "Let me tell you about Homestuck."</a></p>
+								<p>5/16/15 - <a href="comix.php?p=10">> Rose: Cast spell ENLARGE SATAN</a></p>
 								<p>5/15/15 - <a href="comix.php?p=9">> Rose: Waggle your tentacles and stare wordlessly</a></p>
 								<p>5/15/15 - <a href="comix.php?p=8">> Rose: Flee</a></p>
 								<p>5/15/15 - <a href="comix.php?p=7">> Rose: Squawk like a parrot and piss on the counter</a></p>
@@ -25,7 +30,7 @@
 								<p>5/14/15 - <a href="comix.php?p=4">Closer, but not quite</a></p>
 								<p>5/14/15 - <a href="comix.php?p=3">Try Again</a></p>
 								<p>5/14/15 - <a href="comix.php?p=2">Enter Name</a></p>
-								<p>5/14/15 - <a href="comix.php?p=1">MXBARA</a></p>
+								<p>5/14/15 - <a href="comix.php?p=1">MXBARA</a></p>-->
 							</div>
 						</div>
 						<div class="row">

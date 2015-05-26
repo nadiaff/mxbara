@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" >
+
 
 	<head>
 		<meta charset="utf-8">
@@ -20,19 +20,12 @@
 
 		<!-- If you are using the gem version, you need this only -->
 		<link rel="stylesheet" href="css/app.css">
-		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
 
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> 
 	  
 		<script src="js/vendor/modernizr.js"></script>
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 
 	</head>
 	<body>
-	
-<?php
-	include "executivehorse/php/config.php";
-?>

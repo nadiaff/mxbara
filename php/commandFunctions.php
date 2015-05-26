@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "executivehorse/php/config.php";
 	
 	// Check to make sure the command Prompt isn't empty
 	if(!isset($_POST['commandPrompt']) || strlen(trim($_POST['commandPrompt'])) == 0) {
@@ -21,7 +21,7 @@
 			echo "Command entered successfully";
 			$stmt->close();
 			$conn->close();
-			header( "refresh:1;url=/comics/MXBARA/comix.php?p=".$latestPage."" );
+			header( "refresh:1;url=comix.php?p=".$latestPage."" );
 	
 	} 
 

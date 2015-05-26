@@ -10,21 +10,21 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <title>MXBARA Backend</title>
 	  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-	  <link rel="stylesheet" href="/comics/MXBARA/css/normalize.css">
-	  <link rel="stylesheet" href="/comics/MXBARA/css/foundation.css">
+	  <link rel="stylesheet" href="/css/normalize.css">
+	  <link rel="stylesheet" href="/css/foundation.css">
 
 	  <!-- If you are using the gem version, you need this only -->
-	  <link rel="stylesheet" href="/comics/MXBARA/executivehorse/css/app.css">
+	  <link rel="stylesheet" href="css/app.css">
 
 	  <!-- Favicon -->
-	  <link rel="shortcut icon" href="/comics/MXBARA/img/favicon.ico" type="image/x-icon" />
+	  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 	  
-	  <script src="/comics/MXBARA/js/vendor/modernizr.js"></script>
+	  <script src="/js/vendor/modernizr.js"></script>
 
 	</head>
 	<body>
 	
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "php/config.php";
 	
 ?>

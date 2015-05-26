@@ -1,0 +1,3 @@
+	<img src="pages/img/mx18.png" />
+	<p class="comix-text">That wall was recently painted white. The glaring brightness gives this place an anti-septic air. Still, that won't stop the food from giving you the runs if you lack the iron guts necessary to digest whatever micro-organisms fester within the meats. No amount of industrial grade cleaning products used on floors and walls can make up for the fundamental wretchedness of the ingredients.</p>
+	<!-- <p class="command comix-command">> -->

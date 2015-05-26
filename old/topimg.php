@@ -1,6 +1,6 @@
     <div class="row">
 		<div class="panel">
-			<img src="img/horses-herd.png"/>
+			<img src="/comics/MXBARA/img/horses-herd.png"/>
 		</div>
     </div>
   

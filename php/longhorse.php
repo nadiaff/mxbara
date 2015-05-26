@@ -1,1 +1,1 @@
-								<img src="/comics/MXBARA/img/mountain-horse.png" />
+								<img src="img/mountain-horse.png" />

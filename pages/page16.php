@@ -1,0 +1,3 @@
+	<img src="pages/img/mx16.png" />
+	<p class="comix-text">This is exactly the sort of behavior that will land you a meeting with MANAGEMENT. You do not want to meet with MANAGEMENT. Squiddle Burger was recently bought out by a competitor and you find the new administrative hierarchy perturbing. All the new managers dress like CLOWNS and you don't understand why. Even your squid hat offers little comfort when faced with the palpable absurdity of their whimsical attire. </p>
+	<p class="command comix-command">> 

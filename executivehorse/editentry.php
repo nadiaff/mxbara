@@ -1,6 +1,6 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/header.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "php/header.php";
+	include "php/config.php";
 	
 	//Grab the ID of the database row you're going to edit
 	$rowid = $_GET['id'];

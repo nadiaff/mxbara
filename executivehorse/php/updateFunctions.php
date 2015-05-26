@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
+	include "php/config.php";
 	
 	$date =  mysqli_real_escape_string($conn, $_POST['dateField']);
 	$entry = mysqli_real_escape_string($conn, $_POST['entryField']);

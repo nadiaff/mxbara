@@ -1,6 +1,6 @@
 <?php
 	include "config.php";
-	
+	echo $servername;
 	//Determine whether this is to insert new entry or update an old one
 	$um = $_GET['updateMethod'];
 	if ($um == 1) {
@@ -27,5 +27,5 @@
 
 	$conn->close();
 	
-	header( "refresh:.5;url=/comics/MXBARA/executivehorse/newsfeed.php" );
+	header( "refresh:.5;url=../newsfeed.php" );
 ?>

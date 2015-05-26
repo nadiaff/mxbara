@@ -1,4 +1,4 @@
 <div class="slider">
-	<img src="/comics/MXBARA/img/horses-herd.png"/>
+	<img src="img/horses-herd.png"/>
 </div>
   

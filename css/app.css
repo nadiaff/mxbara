@@ -53,8 +53,8 @@ section.top-bar-section {display: inline-block;}
 /* Side Nav Stylings */
 .side-nav-div {width: 25.5%;}
 .side-nav {font-family: 'Roboto', sans-serif; padding:0;}
-.side-nav li {margin:0; color:#2b0057; font-size:.8rem; }
-.side-nav li a:not(.button) {color:#4200b0; padding:0; font-size:.8rem; display:inline-block; text-decoration:underline;}
+.side-nav li {margin:0; color:#2b0057; font-size:.7rem; }
+.side-nav li a:not(.button) {color:#4200b0; padding:0; font-size:.7rem; display:inline-block; text-decoration:underline;}
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {color:#b536da;}
 .side-horse {margin-bottom: .75rem;}
 

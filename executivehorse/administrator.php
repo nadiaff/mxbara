@@ -1,7 +1,7 @@
 <?php 
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/header.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/config.php";
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/executivehorse/php/topnav.php";
+	include "php/header.php";
+	include "php/config.php";
+	include "php/topnav.php";
 ?>
 
      <div class="row">
@@ -50,6 +50,6 @@
         
 <?php
 
-	include $_SERVER['DOCUMENT_ROOT']."/comics/MXBARA/php/footer.php";
+	include "/php/footer.php";
 
 ?>
